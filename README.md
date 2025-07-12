@@ -1,0 +1,154 @@
+
+# NeetCode 150 Progress
+
+
+- [ ] 0001 Two Sum
+- [ ] 0002 Add Two Numbers
+- [ ] 0003 Longest Substring Without Reapeating Characters
+- [ ] 0004 Median of Two Sorted Arrays
+- [ ] 0005 Longest Palindromic Substring
+- [ ] 0518 Coin Change II
+- [ ] 0007 Reverse Integer
+- [ ] 1448 Cound Good Nodes in Binary Tree
+- [ ] 0010 Regular Expression Matching
+- [ ] 0011 Container With Most Water
+- [ ] 0994 Rotting Oranges
+- [ ] 0015 3Sum
+- [ ] 0017 Letter Combinations of a Phone Number
+- [ ] 0019 Remove Nth Node From End of List
+- [ ] 0020 Valid Parentheses
+- [ ] 0021 Merge Two Sorted Lists
+- [ ] 0022 Generate Parentheses
+- [ ] 0023 Merge k Sorted Lists
+- [ ] 0025 Reverse Nodes in k-Group
+- [ ] 0543 Diameter of Binary Tree
+- [ ] 0033 Search in Rotated Sorted Array
+- [ ] 0036 Valid Sudoku
+- [ ] 0039 Combination Sum
+- [ ] 0040 Combination Sum II
+- [ ] 0042 Trapping Rain Water
+- [ ] 0043 Multiply Strings
+- [ ] 0045 Jump Game II
+- [ ] 0046 Permutations
+- [ ] 0048 Rotate Image
+- [ ] 0049 Group Anagrams
+- [ ] 0050 Pow(x,n)
+- [ ] 0051 N-Queens
+- [ ] 0053 Maximum Subarray
+- [ ] 0054 Spiral Matrix
+- [ ] 0055 Jump Game
+- [ ] 0056 Merge Intervals
+- [ ] 0057 Insert Interval
+- [ ] 0567 Permutations in String
+- [ ] 0572 Subtree of Another Tree
+- [ ] 0062 Unique Paths
+- [ ] 0066 Plus One
+- [ ] 0070 Climbing Stairs
+- [ ] 0072 Edit Distance
+- [ ] 0073 Set Matrix Zeroes
+- [ ] 0074 Search a 2D Matrix
+- [ ] 0076 Minimum Window Substring
+- [ ] 0078 Subsets
+- [ ] 0079 Word Search
+- [ ] 0084 Largest Rectangle in Histogram
+- [ ] 0090 Subsets II
+- [ ] 0091 Decode Ways
+- [ ] 2013 Detect Squares
+- [ ] 0097 Interleaving String
+- [ ] 0098 Validate Binary Search Tree
+- [ ] 0100 Same Tree
+- [ ] 0102 Binary Tree Level Order Traversal
+- [ ] 1046 Last Stone Weight
+- [ ] 0104 Maximum Depth of Binary Tree
+- [ ] 0105 Construct Binary Tree from Preorder and InOrder Traversal
+- [ ] 0621 Task Scheduler
+- [ ] 0110 Balanced Binary Tree
+- [ ] 0115 Distinct Subsequences
+- [ ] 0121 Best Time to Buy and Sell Stock
+- [ ] 0124 Binary Tree Maximum Path Sum
+- [ ] 0125 Valid Palindrome
+- [ ] 0127 Word Ladder
+- [ ] 0128 Longest Consecutive Sequence
+- [ ] 0130 Surrounded Regions
+- [ ] 0131 Palindrome Partitioning
+- [ ] 0133 Clone Graph
+- [ ] 0134 Gas Station
+- [ ] 0647 Palindrome Substrings
+- [ ] 0136 Single Number
+- [ ] 0138 Copy List with Random Pointer
+- [ ] 0139 Word Break
+- [ ] 0141 Linked List Cycle
+- [ ] 0143 Reorder List
+- [ ] 0146 LRU Cache
+- [ ] 0150 Evaluate Reverse Polish Notation
+- [ ] 0152 Maximum Product Subarray
+- [ ] 0153 Find Minimum in Rotated Sorted Array
+- [ ] 0155 Min Stack
+- [ ] 0678 Valid Parenthesis String
+- [ ] 0167 Two Sum II - Input Array Is Sorted
+- [ ] 1584 Min Cost to Connect All Points
+- [ ] 0684 Redundant Connection
+- [ ] 0695 Max Area of Island
+- [ ] 0190 Reverse Bits
+- [ ] 0191 Number of 1 Bits
+- [ ] 0198 House Robber
+- [ ] 0199 Binary Tree Right Side View
+- [ ] 0200 Number of Islands
+- [ ] 0202 Happy Number
+- [ ] 0206 Reverse Linked List
+- [ ] 0207 Course Schedule
+- [ ] 0208 Implement Trie (Prefix Tree)
+- [ ] 0210 Course Schedule II
+- [ ] 0211 Design Add and Search Words Data Structure
+- [ ] 0212 Word Search II
+- [ ] 0213 House Robber II
+- [ ] 0215 Kth Largest Element in an Array
+- [ ] 0217 Contains Duplicate
+- [ ] 0226 Invert Binary Tree
+- [ ] 0739 Daily Temperatures
+- [ ] 1143 Longest Common Subsequence
+- [ ] 0230 Kth Smallest Element in a BST
+- [ ] 0743 Network Delay Time
+- [ ] 0235 Lowest Common Ancestor of a Binary Search Tree
+- [ ] 0746 Min Cost Climbing Stairs
+- [ ] 0238 Product of Array Except Self
+- [ ] 0239 Sliding Window Maximum
+- [ ] 0242 Vald Anagram
+- [ ] 0252 Meeting Rooms
+- [ ] 0253 Meeting Rooms II
+- [ ] 0763 Partition Labels
+- [ ] 0261 Graph Valid Tree
+- [ ] 0268 Missing Number
+- [ ] 0269 Alien Dictionary
+- [ ] 0271 Encode and Decode Strings
+- [ ] 0703 Kth Largest Element in a Stream
+- [ ] 0704 Binary Search
+- [ ] 0778 Swim in Rising Water
+- [ ] 0286 Walls and Gates
+- [ ] 0287 Find the Duplicate Number
+- [ ] 0787 Cheapest Flights Within K Stops
+- [ ] 0295 Find Median from Data Stream
+- [ ] 0297 Serialize and Deserialize Binary Tree
+- [ ] 0300 Longest Increasing Subsequence
+- [ ] 0309 Best Time to Buy and Sell Stock with Cooldown
+- [ ] 0312 Burst Balloons
+- [ ] 0322 Coin Change
+- [ ] 0323 Number of Connected Components in an Undirected Graph
+- [ ] 0329 Longest Increasing Path in a Matrix
+- [ ] 0332 Reconstruct Itinerary
+- [ ] 0338 Counting Bits
+- [ ] 0347 Top K Frequent Elements
+- [ ] 0355 Design Twitter
+- [ ] 0846 Hand of Straights
+- [ ] 0371 Sum of Two Integers
+- [ ] 0853 Car Fleet
+- [ ] 0875 Koko Eating Bananas
+- [ ] 0416 Partition Equals Subset Sum
+- [ ] 0417 Pacific Atlantic Water Flow
+- [ ] 0424 Longest Repeating Character Replacement
+- [ ] 0435 Non-overlapping Intervals
+- [ ] 1851 Minimum Interval to Include Each Query
+- [ ] 1899 Merge Triplets to Form Target Triplet
+- [ ] 0494 Target Sum
+- [ ] 0973 K Closest Points to Origin
+- [ ] 0981 Time Based Key-Value Store
