@@ -9,7 +9,7 @@
 - [ ] 0005 Longest Palindromic Substring
 - [ ] 0518 Coin Change II
 - [ ] 0007 Reverse Integer
-- [ ] 1448 Cound Good Nodes in Binary Tree
+- [ ] 1448 Count Good Nodes in Binary Tree
 - [ ] 0010 Regular Expression Matching
 - [ ] 0011 Container With Most Water
 - [ ] 0994 Rotting Oranges
