@@ -2,7 +2,7 @@
 # NeetCode 150 Progress
 
 
-- [ ] 0001 Two Sum
+- [X] 0001 Two Sum
 - [ ] 0002 Add Two Numbers
 - [ ] 0003 Longest Substring Without Reapeating Characters
 - [ ] 0004 Median of Two Sorted Arrays
