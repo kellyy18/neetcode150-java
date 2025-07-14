@@ -1,6 +1,6 @@
 package problems;
 
-public class Problem00125_ValidPalindrome {
+public class Problem0125_ValidPalindrome {
     /* Approach: Reverse the String */
     // public static boolean isPalindrome(String s) {
     //     StringBuilder newStr = new StringBuilder();
