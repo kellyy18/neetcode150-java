@@ -36,16 +36,46 @@ public class Problem0206_ReverseLinkedList {
 
     public static void main(String[] args) {
         ListNode head = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5)))));
-        ListNode newHead = reverseList(head);
+        System.out.print("Old Linked List: ");
+        printLinkedList(head);
+        System.out.println();
 
-        while (newHead != null) {
-            System.out.print(newHead.val);
-            if (newHead.next != null) {
+        ListNode newHead = reverseList(head);
+        System.out.print("Reversed Linked List: ");
+        printLinkedList(newHead);
+        System.out.println();
+
+        // Prints output: 5 -> 4 -> 3 -> 2 -> 1
+
+        head = new ListNode(1, new ListNode(2));
+        System.out.print("Old Linked List: ");
+        printLinkedList(head);
+        System.out.println();
+
+        newHead = reverseList(head);
+        System.out.print("Reversed Linked List: ");
+        printLinkedList(newHead);
+        System.out.println();
+
+        head = new ListNode();
+        System.out.print("Old Linked List: ");
+        printLinkedList(head);
+        System.out.println();
+
+        newHead = reverseList(head);
+        System.out.print("Reversed Linked List: ");
+        printLinkedList(newHead);
+        System.out.println();
+    }
+
+    public static void printLinkedList(ListNode head) {
+        while (head != null) {
+            System.out.print(head.val);
+            if (head.next != null) {
                 System.out.print(" -> ");
             }
-            newHead = newHead.next;
+            head = head.next;
         }
-        // Prints output: 5 -> 4 -> 3 -> 2 -> 1
     }
 }
 
