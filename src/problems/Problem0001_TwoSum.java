@@ -20,14 +20,22 @@ public class Problem0001_TwoSum {
         HashMap<Integer, Integer> prevMap = new HashMap<>();
 
         for (int i = 0; i < nums.length; i++) {
+            // Current element access
             int num = nums[i]; 
+
+            // Remainder if we take the current element
             int remainder = target - num;
 
+            // If the remainder is in the map of previous elements, return 
             if (prevMap.containsKey(remainder)) {
+                // This gives us our array with the indice pair
                 return new int[]{prevMap.get(remainder), i};
             }
+            // Keep going, store this element in the map of previous elements. If there's one later that satisfies the condition
+            // it will get triggered when that element tries to add the prevMap and finds this element
             prevMap.put(num, i);
         }
+        // Dummy return. Should never get here since we are told the condition will be satisfied.
         return new int[] { };
     }
 
