@@ -5,15 +5,21 @@ public class Problem0141_LinkedListCycle {
         ListNode slowPointer = head;
         ListNode fastPointer = head;
 
+        // Only tricky part but makes sense; fast pointer gets to end first, it's calling .next.next so need to check if fastPointer
+        // and fastPointer.next are null for nullpointerexceptions.
         while (fastPointer != null && fastPointer.next != null) {
             fastPointer = fastPointer.next.next;
             slowPointer = slowPointer.next;
+            // If fast pointer and slow pointer meet up there's an infinite loop
             if (fastPointer == slowPointer) {
                 return true;
             }
         }
+        // If you get out of the loop you reached the end of the list so there's no infinite loop
         return false;
     }
+
+    // Fairly straightforward algorithm. If you've seen it before it's very easy. There's much more tricky applications
 
     public static void main(String[] args) {
         ListNode node1 = new ListNode(3);
