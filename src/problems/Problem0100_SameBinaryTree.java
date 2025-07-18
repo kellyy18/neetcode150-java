@@ -14,7 +14,8 @@ public class Problem0100_SameBinaryTree {
     public static void main(String[] args) {
         TreeNode p = new TreeNode(1, new TreeNode(2), new TreeNode(3));
         TreeNode q = new TreeNode(1, new TreeNode(2), new TreeNode(3));
-        System.out.println(isSameTree(p, q));
+        boolean b = isSameTree(p, q);
+        System.out.println(b);
 
         TreeNode p2 = new TreeNode(4, new TreeNode(7), null);
         TreeNode q2 = new TreeNode(4, null, new TreeNode(7));
