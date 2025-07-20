@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 public class Problem0049_GroupAnagrams {
-    public List<List<String>> groupAnagrams(String[] strs) {
+    public static List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> res = new HashMap<>();
         for (String s : strs) {
             int[] count = new int[26];
@@ -27,5 +27,20 @@ public class Problem0049_GroupAnagrams {
         }
         // Return value set because values are the list of group anagram strings and we return a list of those lists
         return new ArrayList<>(res.values());
+    }
+
+    public static void main(String[] args) {
+        String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
+        List<List<String>> anagrams = groupAnagrams(strs); // [["bat"], ["nat", "tan"], ["ate", "eat", "tea"]]
+
+        System.out.println(anagrams);
+
+        String[] strs2 = {""};
+        anagrams = groupAnagrams(strs2); // [[""]]
+        System.out.println(anagrams);
+
+        String[] strs3 = {"a"};
+        anagrams = groupAnagrams(strs3); // [["a"]]
+        System.out.println(anagrams);
     }
 }
