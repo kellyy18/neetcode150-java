@@ -20,13 +20,14 @@ public class ListNode {
     }
 
     public static void printLinkedList(ListNode head) {
-    while (head != null) {
-        System.out.print(head.val);
-        if (head.next != null) {
-            System.out.print(" -> ");
+        while (head != null) {
+            System.out.print(head.val);
+            if (head.next != null) {
+                System.out.print(" -> ");
+            }
+            head = head.next;
         }
-        head = head.next;
+        System.out.println();
     }
-}
 }
 
