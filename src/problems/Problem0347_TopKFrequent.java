@@ -1,6 +1,7 @@
 package problems;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -54,5 +55,25 @@ public class Problem0347_TopKFrequent {
             }
         }
         return res;
+    }
+
+    public static void main(String[] args) {
+        Problem0347_TopKFrequent solver = new Problem0347_TopKFrequent();
+
+        System.out.println("--- LeetCode Test Case 1 ---");
+        int[] nums1 = {1, 1, 1, 2, 2, 3};
+        int k1 = 2;
+        System.out.println("Input nums: " + Arrays.toString(nums1) + ", k = " + k1);
+        int[] result1 = solver.topKFrequent(nums1, k1);
+        System.out.println("Output: " + Arrays.toString(result1)); // Expected: [1, 2] (order doesn't matter for 1 and 2)
+        System.out.println("------------------------------\n");
+
+        System.out.println("--- LeetCode Test Case 2 ---");
+        int[] nums2 = {1};
+        int k2 = 1;
+        System.out.println("Input nums: " + Arrays.toString(nums2) + ", k = " + k2);
+        int[] result2 = solver.topKFrequent(nums2, k2);
+        System.out.println("Output: " + Arrays.toString(result2)); // Expected: [1]
+        System.out.println("------------------------------\n");
     }
 }
