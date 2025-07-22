@@ -3,18 +3,32 @@ package problems;
 import java.util.Arrays;
 
 public class Problem0238_ProductExceptSelf {
+    /* The algorithm:
+     * How od we get the product of every element except the one at that index?
+     * we do two passes, first we multiply up all of the elements coming before our given element in a forward pass
+     * then we multiply all the elements after our given element in a next pass from the end to the start.
+     */
     public int[] productExceptSelf(int[] nums) {
         int n = nums.length;
         int[] res = new int[n];
+
+        // For the result array, it will always have prefix of 1 for the first element; since there's no elements before so we just want to multiply by 1
         res[0] = 1;
 
+        // To get the prefix for every element after the first, we multiply by the prefix in the previous slot, which effectively because of the way it's
+        // set up gives us every element until the immediately preceding element, so then we multiply by the n - 1th element. Pretty simple I'd say.
         for (int i = 1; i < n; i++) {
             res[i] = res[i - 1] * nums[i - 1];
         }
 
+        // Mkae sure to set the suffix to 1.
         int suffix = 1;
+
+        // Here we iterate directly using res[i] and no i - 1 stuff unlike the prefix. Again, just draw it out and it'll make sense (draw out res and nums)
         for (int i = n - 1; i >= 0; i--) {
+            // res[i] currently contains prefix. To get product except self we do prefix * suffix
             res[i] *= suffix;
+            // Now we need to update the suffix for the next element
             suffix *= nums[i];
         }
 
