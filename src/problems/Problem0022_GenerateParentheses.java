@@ -6,22 +6,26 @@ import java.util.List;
 public class Problem0022_GenerateParentheses {
     public List<String> generateParenthesis(int n) {
         List<String> result = new ArrayList<>();
-        generateParenthesisHelper("", n, n, result);
+        generateParenthesisHelper("", 0, 0, n, result);
         return result;
     }
 
-    private void generateParenthesisHelper(String current, int open, int close, List<String> result) {
-        if (open == 0 && close == 0) {
+    private void generateParenthesisHelper(String current, int open, int close, int n, List<String> result) {
+        // Once we have an expression with n open and n closed parentheses, we add it to the rseult
+        if (open == n && close == n) {
             result.add(current);
             return;
         }
         
-        if (open > 0) {
-            generateParenthesisHelper(current + "(", open - 1, close, result);
+        // We can still add open parentheses if this is true
+        if (open < n) {
+            // explore with an open parentheses added
+            generateParenthesisHelper(current + "(", open + 1, close, n, result);
         }
         
-        if (close > open) {
-            generateParenthesisHelper(current + ")", open, close - 1, result);
+        // if there's less closed parentheses than open parentheses, we can explore adding a closed parentheses (to complete the pairs)
+        if (close < open) {
+            generateParenthesisHelper(current + ")", open, close + 1, n, result);
         }
     }
 
