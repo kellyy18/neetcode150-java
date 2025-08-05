@@ -10,6 +10,15 @@ public class Problem0235_LowestCommonAncestor {
             return root; // we found the split point
         }
     }
+    /* Really straightforward problem
+     * Since it's a binary search tree, we know that:
+     * - If both p and q are less than root, then LCA is in the left subtree.
+     * - If both p and q are greater than root, then LCA is in the right subtree.
+     * - Otherwise, root is the LCA.
+     * 
+     * Time complexity: O(h) where h is the height of the tree.
+     * Space complexity: O(1) since we are not using any additional data structures.
+     */
 
     public static void main(String[] args) {
         Problem0235_LowestCommonAncestor solution = new Problem0235_LowestCommonAncestor();
